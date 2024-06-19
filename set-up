@@ -1,0 +1,74 @@
+SET UP
+
+-->Fork the Repository:
+Navigate to the Repository:
+
+-->Head over to the GitHub repository you want to contribute to.
+Create a Fork:
+
+Click the "Fork" button located at the top-right corner of the repository page.
+This action will create a copy (fork) of the repository under your GitHub account.
+Clone the Forked Repository to Your Computer:
+Open Your Terminal:
+Use git clone followed by the URL of your forked repository:
+
+git clone <url>
+
+On Windows, open the command prompt.
+Clone the Repository:
+
+Use the git clone command followed by your forked repository’s URL:
+
+
+git clone <url>
+
+Replace <url> with the HTTPS or 
+SSH URL of your forked repository. This will download the repository to your local machine.
+
+-->Install Yarn:
+
+Install Yarn Globally (if not already installed):
+Ensure you have npm (Node Package Manager) installed.
+Run the following command to install yarn globally:
+
+npm install -g yarn
+
+-->Install Project Dependencies:
+
+Navigate to the Cloned Repository:
+
+Use the cd command to enter the cloned repository directory:
+
+cd <repository-name>
+
+Install Dependencies:
+
+Run the following command to install the project dependencies specified in package.json:
+
+
+yarn install
+
+--> Navigate to the app-desktop Directory:
+Change Directory:
+Navigate to the packages/app-desktop directory within your cloned repository:
+
+cd packages/app-desktop
+
+--> Start the Desktop Application:
+
+Initiate the Start Command:
+
+Inside the packages/app-desktop directory, run the start command:
+
+yarn start
+
+This will kick off the build process for the desktop application.
+
+-->Launching the Application:
+
+After the build process completes, the desktop application should launch automatically.
+You should see the application window or interface, depending on the project specifics.
+
+file:///home/user/Screenshots/Screenshot%20from%202024-06-19%2023-05-25.png
+
+
