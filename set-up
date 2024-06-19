@@ -69,7 +69,7 @@ This will kick off the build process for the desktop application.
 After the build process completes, the desktop application should launch automatically.
 You should see the application window or interface, depending on the project specifics.
 
-
+IMAGE : joplin-setup.png
 
 
 
